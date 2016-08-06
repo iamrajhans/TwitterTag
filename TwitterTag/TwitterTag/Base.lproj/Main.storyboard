@@ -28,32 +28,49 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="149"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HH0-vD-6U9">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g97-rt-A5N">
+                                            <rect key="frame" x="8" y="8" width="48" height="48"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="48" id="zEf-1L-RRK"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbF-g5-VUD">
                                             <rect key="frame" x="64" y="8" width="528" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g97-rt-A5N">
-                                            <rect key="frame" x="8" y="8" width="48" height="48"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJK-va-Y2K">
-                                            <rect key="frame" x="64" y="50" width="528" height="91"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpu-x3-nWq">
+                                            <rect key="frame" x="64" y="37" width="528" height="104"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="HH0-vD-6U9" secondAttribute="trailing" id="MNA-6R-EbJ"/>
-                                        <constraint firstItem="BJK-va-Y2K" firstAttribute="top" secondItem="HH0-vD-6U9" secondAttribute="bottom" constant="21" id="VbH-kn-Gs2"/>
-                                        <constraint firstAttribute="leadingMargin" secondItem="g97-rt-A5N" secondAttribute="leading" id="ZwJ-Ky-cwC"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="g97-rt-A5N" secondAttribute="trailing" constant="536" id="f0F-w1-TE2"/>
-                                        <constraint firstAttribute="topMargin" secondItem="g97-rt-A5N" secondAttribute="top" id="gil-WO-Ahr"/>
-                                        <constraint firstItem="HH0-vD-6U9" firstAttribute="leading" secondItem="g97-rt-A5N" secondAttribute="trailing" constant="8" id="h77-C2-WbG"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="g97-rt-A5N" secondAttribute="bottom" constant="85" id="xAc-a6-Qhv"/>
-                                        <constraint firstAttribute="topMargin" secondItem="HH0-vD-6U9" secondAttribute="top" id="xcp-D3-YM0"/>
+                                        <constraint firstItem="NbF-g5-VUD" firstAttribute="trailing" secondItem="hZl-bc-ZUN" secondAttribute="trailingMargin" id="3Bm-g5-t99"/>
+                                        <constraint firstItem="g97-rt-A5N" firstAttribute="top" secondItem="hZl-bc-ZUN" secondAttribute="topMargin" id="5PD-pr-tWt"/>
+                                        <constraint firstItem="g97-rt-A5N" firstAttribute="leading" secondItem="hZl-bc-ZUN" secondAttribute="leadingMargin" id="Ddc-in-xD2"/>
+                                        <constraint firstItem="NbF-g5-VUD" firstAttribute="leading" secondItem="g97-rt-A5N" secondAttribute="trailing" constant="8" symbolic="YES" id="DtT-HR-d97"/>
+                                        <constraint firstItem="g97-rt-A5N" firstAttribute="top" secondItem="NbF-g5-VUD" secondAttribute="top" id="Ezl-yi-OrR"/>
+                                        <constraint firstItem="Qpu-x3-nWq" firstAttribute="top" secondItem="NbF-g5-VUD" secondAttribute="bottom" constant="8" symbolic="YES" id="W8B-oM-dn6"/>
+                                        <constraint firstItem="g97-rt-A5N" firstAttribute="top" secondItem="hZl-bc-ZUN" secondAttribute="topMargin" id="ayy-sk-khy"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="g97-rt-A5N" secondAttribute="bottom" constant="85" id="cYo-ca-0pD"/>
+                                        <constraint firstItem="NbF-g5-VUD" firstAttribute="leading" secondItem="Qpu-x3-nWq" secondAttribute="leading" id="dtL-q2-BVN"/>
+                                        <constraint firstItem="g97-rt-A5N" firstAttribute="leading" secondItem="hZl-bc-ZUN" secondAttribute="leadingMargin" id="pZq-mJ-G4D"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="g97-rt-A5N" secondAttribute="bottom" constant="85" id="ria-By-zjX"/>
+                                        <constraint firstItem="Qpu-x3-nWq" firstAttribute="bottom" secondItem="hZl-bc-ZUN" secondAttribute="bottomMargin" id="sKI-eS-kte"/>
+                                        <constraint firstItem="NbF-g5-VUD" firstAttribute="trailing" secondItem="Qpu-x3-nWq" secondAttribute="trailing" id="xrh-GR-icX"/>
+                                        <constraint firstItem="Qpu-x3-nWq" firstAttribute="top" secondItem="NbF-g5-VUD" secondAttribute="bottom" constant="8" symbolic="YES" id="ySr-o7-bJd"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="ayy-sk-khy"/>
+                                            <exclude reference="pZq-mJ-G4D"/>
+                                            <exclude reference="ria-By-zjX"/>
+                                            <exclude reference="ySr-o7-bJd"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>

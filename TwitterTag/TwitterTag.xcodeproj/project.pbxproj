@@ -15,6 +15,7 @@
 		28CFF7441D55C4DF004569B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CFF7421D55C4DF004569B6 /* LaunchScreen.storyboard */; };
 		28CFF74F1D55C4DF004569B6 /* TwitterTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFF74E1D55C4DF004569B6 /* TwitterTagTests.swift */; };
 		28CFF75A1D55C4DF004569B6 /* TwitterTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFF7591D55C4DF004569B6 /* TwitterTagUITests.swift */; };
+		28CFF7681D55ED95004569B6 /* TwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFF7671D55ED95004569B6 /* TwitterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		28CFF7551D55C4DF004569B6 /* TwitterTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CFF7591D55C4DF004569B6 /* TwitterTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTagUITests.swift; sourceTree = "<group>"; };
 		28CFF75B1D55C4DF004569B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CFF7671D55ED95004569B6 /* TwitterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				28CFF7361D55C4DF004569B6 /* AppDelegate.swift */,
 				28CFF7381D55C4DF004569B6 /* ViewController.swift */,
 				28CFF73A1D55C4DF004569B6 /* Main.storyboard */,
+				28CFF7671D55ED95004569B6 /* TwitterTableViewCell.swift */,
 				28CFF7401D55C4DF004569B6 /* Assets.xcassets */,
 				28CFF7421D55C4DF004569B6 /* LaunchScreen.storyboard */,
 				28CFF7451D55C4DF004569B6 /* Info.plist */,
@@ -262,6 +265,7 @@
 				28CFF7391D55C4DF004569B6 /* ViewController.swift in Sources */,
 				28CFF73F1D55C4DF004569B6 /* TwitterTag.xcdatamodeld in Sources */,
 				28CFF7371D55C4DF004569B6 /* AppDelegate.swift in Sources */,
+				28CFF7681D55ED95004569B6 /* TwitterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				28CFF7601D55C4DF004569B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28CFF7611D55C4DF004569B6 /* Build configuration list for PBXNativeTarget "TwitterTagTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				28CFF7631D55C4DF004569B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28CFF7641D55C4DF004569B6 /* Build configuration list for PBXNativeTarget "TwitterTagUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				28CFF7661D55C4DF004569B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
