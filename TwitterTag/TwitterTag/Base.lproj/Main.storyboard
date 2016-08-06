@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Twitter Table View Controller-->
         <scene sceneID="UaR-oa-8dR">
             <objects>
-                <tableViewController id="cgS-sP-8yA" sceneMemberID="viewController">
+                <tableViewController id="cgS-sP-8yA" customClass="TwitterTableViewController" customModule="TwitterTag" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" id="MEr-yu-JJB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tweet" rowHeight="150" id="Vh2-Qs-ewa">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tweet" rowHeight="150" id="Vh2-Qs-ewa" customClass="TwitterTableViewCell" customModule="TwitterTag" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="122" width="600" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vh2-Qs-ewa" id="hZl-bc-ZUN">
@@ -72,6 +72,11 @@
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="twitterProfileImageView" destination="g97-rt-A5N" id="zwp-Gi-3KG"/>
+                                    <outlet property="twitterScreenNameLabel" destination="NbF-g5-VUD" id="ZGJ-zG-fDe"/>
+                                    <outlet property="twitterTextLabel" destination="Qpu-x3-nWq" id="FI0-6B-ohn"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
