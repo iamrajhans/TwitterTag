@@ -21,7 +21,7 @@
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tweet" rowHeight="150" id="Vh2-Qs-ewa" customClass="TwitterTableViewCell" customModule="TwitterTag" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tweet" rowHeight="150" id="Vh2-Qs-ewa" customClass="TweetTableViewCell" customModule="TwitterTag" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="122" width="600" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vh2-Qs-ewa" id="hZl-bc-ZUN">
@@ -73,9 +73,10 @@
                                     </variation>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="twitterProfileImageView" destination="g97-rt-A5N" id="zwp-Gi-3KG"/>
-                                    <outlet property="twitterScreenNameLabel" destination="NbF-g5-VUD" id="ZGJ-zG-fDe"/>
-                                    <outlet property="twitterTextLabel" destination="Qpu-x3-nWq" id="FI0-6B-ohn"/>
+                                    <outlet property="twitterProfileImageView" destination="hZl-bc-ZUN" id="O5G-hg-4UY"/>
+                                    <outlet property="twitterProfileimageView" destination="g97-rt-A5N" id="6yD-9R-aT6"/>
+                                    <outlet property="twitterScreenNameLabel" destination="NbF-g5-VUD" id="qET-y9-YOh"/>
+                                    <outlet property="twitterTextLabel" destination="Qpu-x3-nWq" id="0rU-dq-lWd"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
